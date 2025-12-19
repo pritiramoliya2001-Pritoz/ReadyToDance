@@ -1,9 +1,9 @@
-import EventScreen from '@/src/components/EventScreen';
-import FavouritesScreen from '@/src/components/FavouritesScreen';
-import ProfileScreen from '@/src/components/ProfileScreen';
 import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
+import EventScreen from '../components/EventScreen';
+import FavouritesScreen from '../components/FavouritesScreen';
+import ProfileScreen from '../components/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
 
